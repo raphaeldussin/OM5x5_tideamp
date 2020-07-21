@@ -1,4 +1,4 @@
-name: test_env
+name: repro
 channels:
   - conda-forge
 dependencies:
