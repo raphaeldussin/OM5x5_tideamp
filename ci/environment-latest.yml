@@ -12,6 +12,9 @@ dependencies:
   - matplotlib
   - cartopy
   - pip
+  - tlz
+  - dask
+  - numpy
   - pip:
     - git+https://github.com/pydata/xarray.git
     - git+https://github.com/pangeo-data/xESMF.git
