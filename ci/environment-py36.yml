@@ -1,0 +1,16 @@
+name: repro
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - jupyterlab
+  - ipython
+  - papermill
+  - netcdf4
+  - esmf
+  - esmpy
+  - matplotlib
+  - cartopy
+  - xarray
+  - xesmf
+  - xgcm

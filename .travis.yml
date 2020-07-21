@@ -6,10 +6,16 @@ notifications:
 matrix:
   fast_finish: true
   include:
+  - python: 3.6
+    env: CONDA_ENV=py36
+  - python: 3.7
+    env: CONDA_ENV=py37
   - python: 3.8
     env: CONDA_ENV=py38
   - python: 3.8
     env: CONDA_ENV=ref
+  - python: 3.9
+    env: CONDA_ENV=latest
 
 before_install:
   - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
