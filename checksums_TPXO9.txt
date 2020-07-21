@@ -1,0 +1,2 @@
+72a681efa60402c751071d404015887c  bilinear_90x180_54x72_peri.nc
+fcdf4fa3e2eb31eceb9a3612518919a9  tidal_amplitude_TPXO9_OM5x5.v20200720.nc
