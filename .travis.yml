@@ -12,8 +12,8 @@ matrix:
     env: CONDA_ENV=py37
   - python: 3.8
     env: CONDA_ENV=py38
-  - python: 3.8
-    env: CONDA_ENV=py38esmf710
+  - python: 3.6
+    env: CONDA_ENV=py36esmf710
   - python: 3.8
     env: CONDA_ENV=py38esmf800
   - python: 3.8
