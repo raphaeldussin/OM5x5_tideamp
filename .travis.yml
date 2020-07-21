@@ -21,6 +21,7 @@ before_install:
 install:
   - conda env create --file ci/environment-$CONDA_ENV.yml
   - source activate repro
+  - python -m ipykernel install --user --name repro --display-name "Py3-repro"
 
 script:
   - papermill Tidal_forcing_TPXO9_OM5x5.ipynb output.ipynb
